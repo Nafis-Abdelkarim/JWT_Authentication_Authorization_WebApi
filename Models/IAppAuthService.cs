@@ -2,6 +2,6 @@
 {
     public interface IAppAuthService
     {
-        Task<Token> Authentification(User user);
+        Task<Token> Authentification(LoginUser loginUser);
     }
 }
